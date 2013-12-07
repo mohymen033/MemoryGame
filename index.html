@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset='utf-8' http-equiv="Cache-Control" content="no-store">
+<title>Memory Game</title>
+<link rel="stylesheet" href="css/memorygame.css" />
+</head>
+<body>
+
+<div id="all" class="all">
+<section id="game">
+<button id="logo" value="disable" disabled><img src="images/logo.png" id="imglogo"/></button>
+<button id="gameinfo" class="gameinfo" value="disable" disabled>Game Info:<p id="timer">Time: <span class="gametimer"></span> </p>Score:<span class="score"></span></button>
+<button id="gamerestart" class="gamerestart">Restart Game</button>
+
+					<section id="gameIntro">
+						<p><a id="gamePlay" class="button" 	href="">Play</a></p>
+					</section>
+		
+					<section id="gameComplete">
+							<p id="top">Your time taken was <span class="gametimer"></span>.Your Total Score was <span class="score"></span></p>
+							<p><a class="gameReset button" href="">Play again</a></p>
+					</section>
+					
+					<div id="cards">
+					
+						<div class="card">
+							<div class="face front"></div>
+							<div class="face back"></div>
+						</div> <!-- .card -->
+							
+					</div> <!-- #cards -->
+		
+</section> <!-- #game -->
+</div>
+
+<script src="http://code.jquery.com/jquery-1.7.min.js"></script> 
+<script src="js/memorygame.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+The steps are as follows :
+
+   1.Close WAMP (if running)
+   2.Navigate to WAMP\bin\php\(your version of php)\
+   3.Edit php.ini
+   4.Search for curl, uncomment extension=php_curl.dll
+   5.Navigate to WAMP\bin\Apache\(your version of apache)\bin\
+   6.Edit php.ini
+   7.Search for curl, uncomment extension=php_curl.dll
+   8.Save both
+   9.Restart WAMP
+
